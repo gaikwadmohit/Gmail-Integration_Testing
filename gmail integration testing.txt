@@ -1,0 +1,36 @@
+Positive Scenario:
+
+1. Login as user A and send mail to user B by click on compose enter values for all the fields 
+click on send logout as user A . Login as user B click on inbox ans check whether mail is displayed.
+
+2. Login as use A click on compose enter user B email id for To field and user c email id for cc field and 
+ enter the value for remaining field click on send.
+ logout as user A login as user B click on inbox and check mail displayed or not.
+ logout as user B login as user C click on inbox check whether mail is displayed.
+
+3. Login as user A click on compose enter values for all the fields click on send, 
+ click on sent item check whether mail is displayed.
+
+4. Login as user A click on compose enter values for all the field 
+click on cancel click on draft check whether mail is displayed.
+
+5.Login as user A click on inbox select a mail delete the mail
+ click on trash and check whether mail is displayed in trash.
+
+6.Login as user A click on inbox select a mail mark it as important click on important and check whether mail is displayed.
+
+7.Login as user A click on compose enter user A email id for both To and CC field 
+and enter the value for remaining field, click on send click on inbox check whether mail is displayed.
+
+8.Login as user A click on inbox select a mail mark it as stared check the mail in starred folder.
+
+9.Login as user A click on inbox select on inbox reply a mail click on sent item check mail is displayed.
+
+10.Login as user A click on sent item select a mail mark it as starred click on starred check whether mail is displayed.
+
+.Negative Scenario:
+1.Login as user A click on compose enter value for all the field 
+click on cancel, click on sent item check whether mail is displayed.
+
+2.Login as user A click on compose enter value for all the field and 
+send mail to user B logout as user A login as user C click on inbox check whether mail is displayed.
